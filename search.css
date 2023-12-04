@@ -1,0 +1,79 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#searchButton {
+    margin-top: 10px;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.result-item {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.result-image {
+    max-width: 120px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.result-details {
+    flex: 1;
+}
+
+.appointment-button {
+    margin-top: 10px;
+}
+
+.result-item.selected {
+    background-color: #cce5ff;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.dropdown-item {
+    color: #333;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}

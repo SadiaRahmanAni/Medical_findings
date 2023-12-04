@@ -1,0 +1,69 @@
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Times New Roman", serif;
+}
+
+.carousel-inner svg {
+  width: 50%;
+  height: auto;
+}
+
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-cyan-800 {
+  background-color: #0097a7; /* $cyan-800 color */
+}
+
+.navbar {
+  background-color: #0097a7; /* $cyan-800 color */
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+.navbar-nav .nav-link {
+  color: black; 
+  font-weight: bold;
+}
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.form-control {
+  background-color: #B0E0E6;
+  border-color: #87CEFA;
+  color: #333;
+}
+
+.btn-cyan-800 {
+  background-color: #0097a7; 
+  border-color: #0097a7; 
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #1e90ff;
+  border-color: #1e90ff;
+  font-weight: bold;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.carousel-container {
+  margin-top: 0px;
+  padding-top: 0px; 
+}
+
